@@ -124,3 +124,4 @@ def test_generated_head_sections(policy_generated):
 
     for section in head_sections:
         assert section in content, f"Header section '{section}' is missing in user-generated policy file."
+
